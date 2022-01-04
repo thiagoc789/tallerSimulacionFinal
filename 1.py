@@ -20,11 +20,7 @@ for i in range(total_datos):
 # print('Los datos son', datos)
 
 # Prueba de Kolmogorov-Smirvov
-
-# Ordenar datos y sacar el maximo numero
-datos.sort()
-# print('datos ordenados', datos)
-max_numero = datos[total_datos - 1]
+max_numero = max(datos)
 # print('numero maximo de los datos = ', max_numero)
 
 # Dividir los datos entre el numero maximo
